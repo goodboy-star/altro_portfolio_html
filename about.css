@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eb4a4a;
+    text-shadow: .0625pc 0in 1.0625pc rgba(255, 0, 0, .5);
+    font-family: "Gotham";
+    font-weight: Bold;
+    font-size: 48pt;
+    margin-top: 50px;
+}
+
+[class~=main-box] {
+    margin: 0 5%;
+    box-shadow: 0pc 0in .0625in #eb4a4a;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    border: .010416667in;
+    border-style: solid;
+    border-color: #eb4a4a;
+    transition: box-shadow .3s ease-in-out;
+
+}
+
+[class~=main-box]:hover {
+    box-shadow: 0pt 0pt 1.875pc #f00;
+}
+
+[class~=content] {
+    padding: 3%;
+    align-items: center;
+    text-shadow: 0in 0pc 3px #fff;
+    font-family: "Poppins";
+    font-size: 17.25pt;
+}
+
+[class~=content]:hover {
+    text-shadow: 0in 0pt .625pc #fff;
+    transition: text-shadow .3s ease-in-out;
+}
