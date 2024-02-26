@@ -27,14 +27,10 @@ html {
     text-decoration: none;
 }
 
-.header-right {
-    /* float: right; */
-    gap: 100px;
-}
-
 .header-right-container {
     display: flex;
     justify-content: center;
+    margin-right: 200px;
 }
 
 .logo {
@@ -44,7 +40,7 @@ html {
 [class~=navbar] a {
     font-family: "Poppins", sans-serif;
     font-size: .291666667in;
-    margin-right: 50px;
+    margin-right: 100px;
     text-decoration: none;
     transition: color .3s ease;
     justify-content: center;
@@ -63,6 +59,7 @@ html {
     }
 
     .header-right-container {
+        margin-right: 0;
         display: block;
     }
 }
@@ -128,12 +125,13 @@ a {
 [class~=starting-text] {
     font-family: "Gotham";
     font-size: 64px;
-    line-height: 30px;
+    margin: 20px 0;
 }
 
 [class~=middle-txt] {
     display: flex;
     font-size: 64px;
+    margin: 40px 0;
 }
 
 [class~=middle-text] {
