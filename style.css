@@ -44,7 +44,7 @@ html {
 [class~=navbar] a {
     font-family: "Poppins", sans-serif;
     font-size: .291666667in;
-    margin-left: 50px;
+    margin-right: 50px;
     text-decoration: none;
     transition: color .3s ease;
     justify-content: center;
@@ -54,7 +54,7 @@ html {
     .navbar a {
         float: none;
         display: block;
-        margin-left: 0;
+        margin-right: 0;
     }
 
     .header-right {
